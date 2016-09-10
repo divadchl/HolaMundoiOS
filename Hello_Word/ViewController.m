@@ -117,6 +117,28 @@
     }
 }
 - (IBAction)btnTouch:(id)sender {
+    //
+    NSString *mensajeError = nil;
     
+    if([self.txf1.text isEqualToString:@""])
+        mensajeError = @"Falta el nombre";
+    else if([self.txf2.text isEqualToString:@""])
+        mensajeError = @"Falta el Apellido";
+    else if([self.txf3.text isEqualToString:@""])
+        mensajeError = @"Falta el email";
+    else if([self.txf4.text isEqualToString:@""])
+        mensajeError = @"Falta la edad";
+    if(mensajeError != nil){
+        UIAlertController *ac = [UIAlertController alertControllerWithTitle:@"Alerta" message:mensajeError preferredStyle: UIAlertControllerStyleAlert];
+        UIAlertAction *botonOk = [UIAlertAction actionWithTitle:@"ni pex...." style:UIAlertActionStyleDefault handler:nil];
+        [ac addAction:botonOk];
+                
+        
+        [self presentViewController:ac animated:YES completion:nil];
+    }
+    else
+    {
+        [self performSegueWithIdentifier:@"loginOK" sender:self];
+    }
 }
 @end

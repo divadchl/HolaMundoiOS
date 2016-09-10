@@ -26,7 +26,7 @@
                                         <color key="textColor" red="0.019940726459026337" green="0.89401096105575562" blue="0.98759526014328003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbt-LA-ZNq">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Apellidos" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mbt-LA-ZNq">
                                         <rect key="frame" x="101" y="243" width="120" height="30"/>
                                         <color key="backgroundColor" red="0.06266147643327713" green="0.7379031777381897" blue="0.95890837907791138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -41,7 +41,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zZM-8V-lg0">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Edad" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zZM-8V-lg0">
                                         <rect key="frame" x="101" y="362" width="120" height="30"/>
                                         <color key="backgroundColor" red="0.06266147643327713" green="0.7379031777381897" blue="0.95890837907791138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -56,7 +56,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eg5-Wr-jZt">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eg5-Wr-jZt">
                                         <rect key="frame" x="101" y="181" width="120" height="30"/>
                                         <color key="backgroundColor" red="0.06266147643327713" green="0.7379031777381897" blue="0.95890837907791138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -71,7 +71,7 @@
                                             </mask>
                                         </variation>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxs-2w-qH1">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxs-2w-qH1">
                                         <rect key="frame" x="101" y="296" width="120" height="30"/>
                                         <color key="backgroundColor" red="0.06266147643327713" green="0.7379031777381897" blue="0.95890837907791138" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -135,7 +135,7 @@
                         <outlet property="txf2" destination="mbt-LA-ZNq" id="SXH-rA-zKa"/>
                         <outlet property="txf3" destination="bxs-2w-qH1" id="kis-4B-ZM0"/>
                         <outlet property="txf4" destination="zZM-8V-lg0" id="iIG-20-uu1"/>
-                        <segue destination="Vr4-Hp-mTG" kind="presentation" id="etH-6R-9mx"/>
+                        <segue destination="Vr4-Hp-mTG" kind="presentation" identifier="loginOK" id="etH-6R-9mx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
